@@ -13,5 +13,11 @@ function invertiParola(str) {
 }
 console.log(invertiParola(parola));
 
-
+// Controlliamo se la parola è uguale a la parola invertita
+if (parola === parolaInvertita){
+    console.log("parola è palindroma")
+} else {
+    console.log("parola non è palindroma");
+    
+}
 
