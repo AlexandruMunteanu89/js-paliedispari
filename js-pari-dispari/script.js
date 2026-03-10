@@ -15,6 +15,9 @@ console.log(numeroUtente);
 const numeroPC = Math.floor(Math.random() * 5 + 1);
 console.log(numeroPC);
 
+//Sommiamo numero utente con il numero generato
+let sommaNumeri = numeroUtente + numeroPC;
+console.log(sommaNumeri);
 
 
 
