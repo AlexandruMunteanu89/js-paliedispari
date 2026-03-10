@@ -11,6 +11,9 @@ const numeroUtente = parseInt(prompt("inserisci un numero compreso tra 1 e 5"));
 const utentePariDispari = prompt("inserisci pari o dispari");
 console.log(numeroUtente);
 
+//Generiamo un numero random
+const numeroPC = Math.floor(Math.random() * 5 + 1);
+console.log(numeroPC);
 
 
 
