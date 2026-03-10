@@ -32,3 +32,9 @@ function pariDispari(somma){
 console.log(pariDispari(sommaNumeri));
 
 
+//Controliamo se ha vinto in base a la scelta del utente e la somma dei numeri 
+if (utentePariDispari === (pariDispari(sommaNumeri))){
+    console.log(`hai vinto`);
+} else {
+    console.log(`non hai vinto`);
+}
