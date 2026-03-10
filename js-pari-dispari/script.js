@@ -19,5 +19,16 @@ console.log(numeroPC);
 let sommaNumeri = numeroUtente + numeroPC;
 console.log(sommaNumeri);
 
+//Creiamo una funzione che controla se la somma e pari o dispari
+function pariDispari(somma){
+    let result = '';
+    if (somma % 2 === 0){
+        result = "pari";
+    } else {
+        result = "dispari";
+    };
+    return result;
+}
+console.log(pariDispari(sommaNumeri));
 
 
